@@ -1,16 +1,56 @@
-# React + Vite
+IMC Calc 🔢 | Calculadora de IMC com React e Vite
+IMC Calc é uma calculadora de Índice de Massa Corporal (IMC) interativa e responsiva, construída com React e Vite. A aplicação permite que os utilizadores insiram o seu peso (em kg) e altura (em cm) para obterem o seu valor de IMC e a classificação correspondente, seguindo as diretrizes da Organização Mundial da Saúde (OMS).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido para praticar conceitos fundamentais de React, como estados, eventos e renderização condicional, utilizando o ambiente de desenvolvimento rápido e moderno do Vite.
 
-Currently, two official plugins are available:
+🚀 Funcionalidades
+Cálculo em tempo real: O IMC é calculado instantaneamente sem a necessidade de recarregar a página.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tabela de Classificação: Exibe uma tabela com as faixas de IMC para fácil referência.
 
-## React Compiler
+Feedback Visual: A cor do resultado muda dinamicamente de acordo com a classificação do IMC (ex: azul para normal, amarelo para sobrepeso, vermelho para obesidade), fornecendo um feedback visual imediato ao utilizador.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Limpeza Fácil: Um botão "Limpar" para reiniciar os valores e fazer um novo cálculo.
 
-## Expanding the ESLint configuration
+Design Responsivo: A interface é totalmente adaptável para uma experiência de utilização perfeita em desktops, tablets e telemóveis.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚙️ Como Executar o Projeto Localmente
+Para executar este projeto na sua máquina, siga os passos abaixo.
+
+Pré-requisitos
+Node.js (versão 16 ou superior)
+
+Git
+
+Passo a Passo
+Clone o repositório:
+
+Bash
+
+git clone https://github.com/[SEU_NOME_DE_UTILIZADOR]/[NOME_DO_SEU_REPOSITORIO].git
+Navegue para a pasta do projeto:
+
+Bash
+
+cd [NOME_DO_SEU_REPOSITORIO]
+Instale as dependências do projeto:
+
+Bash
+
+npm install
+Inicie o servidor de desenvolvimento Vite:
+Este comando irá iniciar o servidor de desenvolvimento, geralmente na porta 5173.
+
+Bash
+
+npm run dev
+Aceda à aplicação:
+Abra o seu navegador e vá para o endereço indicado no seu terminal (normalmente http://localhost:5173).
+
+
+👨‍💻 Autor
+Feito com ❤️ por Mateus dos Santos Cândido
+
+LinkedIn: https://www.linkedin.com/in/mateus-cândido-b8b06a280
+
+GitHub: https://github.com/MateCandido
